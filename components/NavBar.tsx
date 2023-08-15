@@ -17,11 +17,16 @@ const NavBar = () => {
           nav {
             padding: 20px;
             background-color: #a8ddff;
+            user-select: none; 
           }
           a {
             margin-right: 10px;
             color: #848484;
             text-decoration: none;
+            transition: all 0.2s ease-in-out;
+          }
+          a:hover {
+            color: white;
           }
           .active {
             color: #ff9f7f;
