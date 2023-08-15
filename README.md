@@ -34,10 +34,10 @@ yarn run dev
 
 ## 📌 Pages
 - 컴포넌트를 `export default` 해야 한다. 이 때, 컴포넌트의 이름은 중요하지 않고, 파일명이 중요한데, 파일명이 url이 되기 때문이다.
-  - ex) pages/about.ts ➡️ `localhost:3000/about`
+  - ex) pages/about.tsx ➡️ `localhost:3000/about`
 
-    ```ts
-    // about.ts
+    ```tsx
+    // about.tsx
     const AboutUs = () => {
       return "About us";
     };
